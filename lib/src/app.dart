@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:introduccion/src/pages/home_page.dart';
 
 class MyApp extends StatelessWidget{
 
@@ -7,7 +8,7 @@ class MyApp extends StatelessWidget{
 
     return MaterialApp(
         home: Center(
-          child: Text('Hola Mundo!'),
+          child: HomePage(),
         )
     );
 
