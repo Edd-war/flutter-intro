@@ -22,6 +22,7 @@ class HomePage extends StatelessWidget{
           ],
         ),
       ),
+      //floatingActionButtonLocation: FloatingActionButtonLocation.startTop,
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         onPressed: () {
